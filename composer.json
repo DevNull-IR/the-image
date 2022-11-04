@@ -1,0 +1,21 @@
+{
+  "name": "vendor_name/theimage",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "HO",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "ext-exif": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "TheImage\\": "src/"
+    }
+  }
+}
